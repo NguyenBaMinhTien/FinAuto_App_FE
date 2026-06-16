@@ -1,1 +1,1 @@
-# Finity_App_FE
+# FinAuto_App_FE
