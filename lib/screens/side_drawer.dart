@@ -15,7 +15,7 @@ class CustomSideDrawer extends StatelessWidget {
           // Header của Drawer chứa thông tin cá nhân/cửa hàng
           DrawerHeader(
             decoration: BoxDecoration(
-              color: colorScheme.surfaceVariant.withOpacity(0.4),
+              color: colorScheme.surfaceContainerHighest.withValues(alpha: 0.4),
             ),
             child: Row(
               children: [

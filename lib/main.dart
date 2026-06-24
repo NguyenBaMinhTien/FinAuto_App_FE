@@ -35,7 +35,7 @@ class QuanLyCuaHangApp extends StatelessWidget {
           onSecondaryContainer: Color(0xFF606800),
           surface: Color(0xFFF8F9FA),
           onSurface: Color(0xFF191C1D),
-          surfaceVariant: Color(0xFFE1E3E4),
+          surfaceContainerHighest: Color(0xFFE1E3E4),
           onSurfaceVariant: Color(0xFF584045),
           outline: Color(0xFF8C7075),
           outlineVariant: Color(0xFFDFBEC4),
@@ -128,7 +128,7 @@ class _MainNavigationShellState extends State<MainNavigationShell> {
         decoration: BoxDecoration(
           border: Border(
             top: BorderSide(
-              color: Theme.of(context).colorScheme.outlineVariant.withOpacity(0.5),
+              color: Theme.of(context).colorScheme.outlineVariant.withValues(alpha: 0.5),
               width: 1,
             ),
           ),
@@ -136,7 +136,7 @@ class _MainNavigationShellState extends State<MainNavigationShell> {
         child: NavigationBar(
           selectedIndex: _currentIndex,
           backgroundColor: Colors.white,
-          indicatorColor: Theme.of(context).colorScheme.primaryContainer.withOpacity(0.2),
+          indicatorColor: Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.2),
           labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
           height: 64,
           onDestinationSelected: (index) {

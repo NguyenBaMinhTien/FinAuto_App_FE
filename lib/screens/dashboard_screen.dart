@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'side_drawer.dart';
+
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
@@ -67,14 +69,15 @@ class DashboardScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: colorScheme.surfaceVariant),
+                  border: Border.all(color: colorScheme.surfaceContainerHighest),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.02),
+                      color: Colors.black.withValues(alpha: 0.02),
                       blurRadius: 10,
                       offset: const Offset(0, 2),
                     )
                   ],
+
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -118,10 +121,10 @@ class DashboardScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: colorScheme.surfaceVariant),
+                  border: Border.all(color: colorScheme.surfaceContainerHighest),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.02),
+                      color: Colors.black.withValues(alpha: 0.02),
                       blurRadius: 10,
                       offset: const Offset(0, 2),
                     )
@@ -168,10 +171,10 @@ class DashboardScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: colorScheme.surfaceVariant),
+                  border: Border.all(color: colorScheme.surfaceContainerHighest),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.02),
+                      color: Colors.black.withValues(alpha: 0.02),
                       blurRadius: 10,
                       offset: const Offset(0, 2),
                     )

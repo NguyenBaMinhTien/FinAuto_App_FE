@@ -1,0 +1,50 @@
+Running `(cd /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/; TMPDIR=/var/folders/d_/60n0fdxx1yg3pdgpk047dvk00000gn/T/ PATH=/Users/nguyentien/Documents/flutter/bin:/Users/nguyentien/.gemini/antigravity-ide/bin:/Users/nguyentien/.antigravity-ide/antigravity-ide/bin:/opt/homebrew/opt/python@3.12/bin:/opt/homebrew/bin:/Users/nguyentien/.nvm/versions/node/v24.14.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/nguyentien/Documents/flutter/bin HOME=/Users/nguyentien /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/package_config.json /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/objective_c/de310349bc/hook.dill --config=/Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/objective_c/de310349bc/input.json )`.
+INFO: 2026-06-24 10:09:02.469511: Using compiler /Library/Developer/CommandLineTools/usr/bin/clang from BuildInput.cCompiler.cc.
+
+INFO: 2026-06-24 10:09:02.472638: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/include/dart_api_dl.c -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-06-24 10:09:02.473447: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/objective_c.c -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.c.o
+
+INFO: 2026-06-24 10:09:02.473560: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/input_stream_adapter.m -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-06-24 10:09:02.473650: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/objective_c.m -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.m.o
+
+INFO: 2026-06-24 10:09:02.473738: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/observer.m -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o
+
+INFO: 2026-06-24 10:09:02.473815: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/ns_number.m -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/ns_number.m.o
+
+INFO: 2026-06-24 10:09:02.473989: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/nguyentien/.pub-cache/hosted/pub.dev/objective_c-9.4.1/src/objective_c_bindings_generated.m -fpic -gline-tables-only -I src -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-06-24 10:09:02.796893: 
+INFO: 2026-06-24 10:09:02.796905: 
+INFO: 2026-06-24 10:09:02.796914: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o
+
+o
+INFO: 2026-06-24 10:09:02.796554: 
+INFO: 2026-06-24 10:09:02.796565: 
+INFO: 2026-06-24 10:09:02.796574: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-06-24 10:09:02.797396: 
+INFO: 2026-06-24 10:09:02.797409: 
+INFO: 2026-06-24 10:09:02.797419: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/protocol.m.o
+
+INFO: 2026-06-24 10:09:03.018375: 
+INFO: 2026-06-24 10:09:03.018416: 
+INFO: 2026-06-24 10:09:03.018427: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/ns_number.m.o
+
+INFO: 2026-06-24 10:09:03.024669: 
+INFO: 2026-06-24 10:09:03.024701: 
+INFO: 2026-06-24 10:09:03.024712: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.m.o
+
+INFO: 2026-06-24 10:09:03.025410: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-06-24 10:09:03.038891: 
+INFO: 2026-06-24 10:09:03.038918: 
+INFO: 2026-06-24 10:09:03.038928: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-06-24 10:09:03.039166: Running: /Library/Developer/CommandLineTools/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.c.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.m.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/ns_number.m.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/protocol.m.o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o -o /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/objective_c.dylib
+
+INFO: 2026-06-24 10:09:03.176122: 
+INFO: 2026-06-24 10:09:03.176175: 
+INFO: 2026-06-24 10:09:03.176188: Generated /Users/nguyentien/Documents/EXE_FE/FinAuto_App_FE/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/objective_c.dylib
+

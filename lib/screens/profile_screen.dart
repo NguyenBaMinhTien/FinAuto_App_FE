@@ -114,7 +114,7 @@ class ProfileScreen extends StatelessWidget {
                 label: const Text('Đăng xuất', style: TextStyle(color: Colors.red, fontSize: 16)),
                 style: OutlinedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 14),
-                  side: BorderSide(color: Colors.red.withOpacity(0.3)),
+                  side: BorderSide(color: Colors.red.withValues(alpha: 0.3)),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
                   ),

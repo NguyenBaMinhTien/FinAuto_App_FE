@@ -92,7 +92,6 @@ class _ThuChiScreenState extends State<ThuChiScreen> with SingleTickerProviderSt
 
   Widget _buildTransactionList(BuildContext context, String filter) {
     // Phiên bản demo các giao dịch có sẵn theo ảnh chụp màn hình
-    final colorScheme = Theme.of(context).colorScheme;
 
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -165,7 +164,7 @@ class _ThuChiScreenState extends State<ThuChiScreen> with SingleTickerProviderSt
       ),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.between,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Row(
             children: [

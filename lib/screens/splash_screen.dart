@@ -55,7 +55,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
           gradient: RadialGradient(
             colors: [
               Colors.white,
-              theme.colorScheme.surface-container-low.withOpacity(0.5) ?? const Color(0xFFF3F4F5),
+              theme.colorScheme.surfaceContainerLow.withValues(alpha: 0.5),
             ],
             center: Alignment.center,
             radius: 1.2,
@@ -74,11 +74,11 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                     Container(
                       padding: const EdgeInsets.all(24),
                       decoration: BoxDecoration(
-                        color: primaryColor.withOpacity(0.1),
+                        color: primaryColor.withValues(alpha: 0.1),
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.04),
+                            color: Colors.black.withValues(alpha: 0.04),
                             blurRadius: 10,
                             offset: const Offset(0, 4),
                           )
@@ -128,7 +128,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                       child: CircularProgressIndicator(
                         strokeWidth: 3.5,
                         valueColor: AlwaysStoppedAnimation<Color>(primaryColor),
-                        backgroundColor: theme.colorScheme.surfaceVariant,
+                        backgroundColor: theme.colorScheme.surfaceContainerHighest,
                       ),
                     ),
                     const SizedBox(height: 12),
