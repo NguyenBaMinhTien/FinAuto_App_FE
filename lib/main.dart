@@ -6,6 +6,8 @@ import 'screens/login_screen.dart';
 import 'screens/dashboard_screen.dart';
 import 'screens/thu_chi_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/camera_screen.dart';
+import 'screens/split_screen.dart';
 
 void main() {
   runApp(const QuanLyCuaHangApp());
@@ -88,6 +90,8 @@ class QuanLyCuaHangApp extends StatelessWidget {
         '/dashboard': (context) => const MainNavigationShell(initialIndex: 0),
         '/thu_chi': (context) => const MainNavigationShell(initialIndex: 1),
         '/profile': (context) => const MainNavigationShell(initialIndex: 2),
+        '/camera': (context) => const CameraScreen(),
+        '/split': (context) => const SplitScreen(),
       },
     );
   }

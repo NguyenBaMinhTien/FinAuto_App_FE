@@ -235,6 +235,38 @@ class _ThuChiScreenState extends State<ThuChiScreen> with SingleTickerProviderSt
               const SizedBox(height: 16),
               const Text('Thêm giao dịch', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
               const SizedBox(height: 16),
+              ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.pop(context); // Đóng bottom sheet
+                  Navigator.pushNamed(context, '/camera'); // Mở AI camera
+                },
+                icon: const Icon(Icons.document_scanner, color: Colors.white),
+                label: const Text(
+                  'Chụp biên lai (AI quét tự động)',
+                  style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0xFFB31F56),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  elevation: 2,
+                ),
+              ),
+              const SizedBox(height: 16),
+              const Center(
+                child: Text(
+                  'HOẶC NHẬP THỦ CÔNG',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 1.0,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
               const TextField(
                 decoration: InputDecoration(
                   labelText: 'Tên giao dịch (Ví dụ: Bán hàng, Tiền điện...)',
